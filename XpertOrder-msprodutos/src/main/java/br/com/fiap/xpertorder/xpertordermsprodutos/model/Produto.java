@@ -1,20 +1,24 @@
 package br.com.fiap.xpertorder.xpertordermsprodutos.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-import java.util.UUID;
+import java.time.LocalDateTime;
 
 @Data
-public class Produtos {
+@Entity
+public class Produto {
 
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private UUID id;
+   private Integer id;
    private String nomeProduto;
    private String descricaoProduto;
-   private Estoque estoque;
+   private int quantidadeEstoque;
+   private double precoProduto;
+   private LocalDateTime dataCriacao;
 
 }
