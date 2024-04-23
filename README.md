@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div style="text-align: center" width="30%">
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg" alt="logo da fiap"/>
 </div>
 
