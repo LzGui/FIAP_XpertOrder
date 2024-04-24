@@ -15,10 +15,10 @@ public class Produto {
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    private Integer id;
-   private String nomeProduto;
-   private String descricaoProduto;
-   private int quantidadeEstoque;
-   private double precoProduto;
-   private LocalDateTime dataCriacao;
+   private String nome;
+   private String descricao;
+   private int quantidade_estoque;
+   private double preco;
+   private LocalDateTime data_criacao;
 
 }
