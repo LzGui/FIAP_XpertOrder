@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class ItemProduto {
+public class ItemPedido {
    private Integer idProduto;
    private int quantidade;
 }
