@@ -6,8 +6,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-import java.time.LocalDateTime;
-
 @Data
 @Entity
 public class Produto {
@@ -19,6 +17,5 @@ public class Produto {
    private String descricao;
    private int quantidade_estoque;
    private double preco;
-   private LocalDateTime data_criacao;
 
 }
