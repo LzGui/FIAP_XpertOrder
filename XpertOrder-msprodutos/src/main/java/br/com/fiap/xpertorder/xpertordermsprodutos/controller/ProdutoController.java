@@ -36,8 +36,17 @@ public class ProdutoController {
       return produtoService.atualizarProduto(produtoId, produtoNovo);
    }
 
+   @PutMapping("/atualizar/estoque/{produtoId}/{quantidade}")
+   public Produto atualizarEstoque(@PathVariable Integer produtoId,
+                                   @PathVariable int quantidade) {
+
+      return produtoService.atualizarEstoque(produtoId, quantidade);
+   }
+
    @DeleteMapping("/{produtoId}")
    public void excluirProduto(@PathVariable Integer produtoId) {
       produtoService.excluirProduto(produtoId);
    }
+
+
 }
