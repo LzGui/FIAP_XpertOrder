@@ -112,4 +112,8 @@ public class PedidoService {
 
       }
    }
+
+   private List<Pedido> listarPedidos() {
+
+   }
 }
