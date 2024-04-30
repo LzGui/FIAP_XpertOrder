@@ -154,5 +154,4 @@ public class PedidoService {
       } else {
          throw new NoSuchElementException("Pedido não encontrado");
       }
-   }
 }
