@@ -5,11 +5,9 @@ import br.com.fiap.xpertorder.xpertordermspedidos.service.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.NoSuchElementException;
 
 @RestController
@@ -30,5 +28,26 @@ public class PedidoController {
       } catch (NoSuchElementException e) {
          return new ResponseEntity<>("Um ou mais produtos estão indisponíveis.", HttpStatus.BAD_REQUEST);
       }
+   }
+
+   @GetMapping
+   public List<Pedido> listarPedidos() {
+      return pedidoService.listarPedidos();
+   }
+
+   @GetMapping("/{pedidoId}")
+   public ResponseEntity<?> listarUmPedido(@PathVariable String pedidoId){
+      return pedidoService.listarUmPedido(pedidoId);
+   }
+
+   @PutMapping("/{pedidoId}")
+   public Pedido atualizarPedido(@PathVariable String pedidoId,
+                                 @RequestBody Pedido pedidoNovo){
+      return pedidoService.atualizarPedido(pedidoId, pedidoNovo);
+   }
+
+   @DeleteMapping("/{pedidoId}")
+   public void excluirPedido(@PathVariable String pedidoId) {
+      pedidoService.excluirPedido(pedidoId);
    }
 }

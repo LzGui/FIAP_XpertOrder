@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
@@ -113,7 +115,43 @@ public class PedidoService {
       }
    }
 
-   private List<Pedido> listarPedidos() {
-
+   public List<Pedido> listarPedidos(){
+      return pedidoRepository.findAll();
    }
+
+   public ResponseEntity<?> listarUmPedido(@PathVariable String pedidoId){
+      Pedido pedido = pedidoRepository.findById(pedidoId).orElse(null);
+
+      if (pedido != null) {
+         return ResponseEntity.ok(pedido);
+      } else {
+         return ResponseEntity
+                 .status(HttpStatus.NOT_FOUND)
+                 .body("Pedido não encontrado.");
+      }
+   }
+
+   public Pedido atualizarPedido(String pedidoId, Pedido pedidoNovo) {
+      Pedido pedido = pedidoRepository.findById(pedidoId).orElse(null);
+
+      if (pedido != null) {
+         pedido.setNomeCliente(pedidoNovo.getNomeCliente());
+         pedido.setItensPedido(pedidoNovo.getItensPedido());
+
+         return pedidoRepository.save(pedido);
+      } else {
+         throw new NoSuchElementException("Pedido não encontrado.");
+      }
+   }
+
+   public void excluirPedido(String pedidoId){
+      Pedido pedido = pedidoRepository
+              .findById(pedidoId)
+              .orElse(null);
+
+      if (pedido != null) {
+         pedidoRepository.delete(pedido);
+      } else {
+         throw new NoSuchElementException("Pedido não encontrado");
+      }
 }
