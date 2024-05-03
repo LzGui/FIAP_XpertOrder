@@ -5,27 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56029eda-e9d0-4fab-8cea-4c10a8b6ad3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b91333e7cbe27a87e7c9512e9ff15a183b7f9df6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/9/b91333e7cbe27a87e7c9512e9ff15a183b7f9df6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/xpertorder/xpertordermsclientes/ClientesApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/xpertorder/xpertordermsclientes/controller/ClienteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/xpertorder/xpertordermsclientes/repository/ClienteRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/XpertOrderMsclientesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/ClientesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/fiapshop/xpertordermsclientes/XpertOrderMsclientesApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/ClienteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/xpertorder/xpertordermsclientes/model/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/ClienteRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/xpertorder/xpertordermsclientes/service/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XpertOrder-msprodutos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../XpertOrder-msprodutos/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -63,6 +62,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2fmsFGvEcG2zlT53jkN4Apsd2zz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -118,10 +120,22 @@
       <updated>1714417481981</updated>
       <workItem from="1714417483155" duration="2541000" />
       <workItem from="1714432200122" duration="1174000" />
+      <workItem from="1714693342607" duration="2490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

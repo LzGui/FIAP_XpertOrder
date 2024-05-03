@@ -14,7 +14,7 @@ public class Cliente {
 
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private UUID id;
+   private UUID clienteId;
    private String nomeCliente;
    private String enderecoCliente;
    private String cpf;

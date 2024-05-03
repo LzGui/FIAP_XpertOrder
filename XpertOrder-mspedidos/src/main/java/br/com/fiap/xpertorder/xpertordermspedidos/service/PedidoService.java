@@ -2,6 +2,7 @@ package br.com.fiap.xpertorder.xpertordermspedidos.service;
 
 import br.com.fiap.xpertorder.xpertordermspedidos.model.ItemPedido;
 import br.com.fiap.xpertorder.xpertordermspedidos.model.Pedido;
+import br.com.fiap.xpertorder.xpertordermspedidos.model.PedidoCliente;
 import br.com.fiap.xpertorder.xpertordermspedidos.repository.PedidoRepository;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,12 +11,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.UUID;
 
 @Service
 public class PedidoService {
@@ -44,7 +45,24 @@ public class PedidoService {
       return pedidoRepository.save(pedido);
    }
 
-   private boolean verificarDisponibilidadeProdutos(List<ItemPedido> itensPedido){
+   private void vincularClienteAoPedido(List<PedidoCliente> pedidoClientes) {
+      for (PedidoCliente pedidoCliente : pedidoClientes) {
+         UUID idCliente = pedidoCliente.getIdCliente();
+         String nomeCliente = pedidoCliente.getNomeCliente();
+         String cpf = pedidoCliente.getCpf();
+
+         restTemplate.put(
+                 "http://localhost:8082/api/clientes/{clienteId}",
+                 null,
+                 idCliente,
+                 nomeCliente,
+                 cpf
+         );
+
+      }
+   }
+
+   private boolean verificarDisponibilidadeProdutos(List<ItemPedido> itensPedido) {
       for (ItemPedido itemPedido : itensPedido) {
          Integer idProduto = itemPedido.getIdProduto();
          int quantidade = itemPedido.getQuantidade();
@@ -66,7 +84,7 @@ public class PedidoService {
                   return false;
                }
             } catch (IOException e) {
-               // tratar dps
+               throw new RuntimeException("Estoque insuficiente", e);
             }
          }
       }
@@ -87,7 +105,7 @@ public class PedidoService {
                  idProduto
          );
 
-         if (response.getStatusCode() == HttpStatus.OK){
+         if (response.getStatusCode() == HttpStatus.OK) {
             try {
                JsonNode produtoJson = objectMapper.readTree(response.getBody());
                double preco = produtoJson.get("preco").asDouble();
@@ -115,11 +133,11 @@ public class PedidoService {
       }
    }
 
-   public List<Pedido> listarPedidos(){
+   public List<Pedido> listarPedidos() {
       return pedidoRepository.findAll();
    }
 
-   public ResponseEntity<?> listarUmPedido(@PathVariable String pedidoId){
+   public ResponseEntity<?> listarUmPedido(@PathVariable String pedidoId) {
       Pedido pedido = pedidoRepository.findById(pedidoId).orElse(null);
 
       if (pedido != null) {
@@ -135,7 +153,7 @@ public class PedidoService {
       Pedido pedido = pedidoRepository.findById(pedidoId).orElse(null);
 
       if (pedido != null) {
-         pedido.setNomeCliente(pedidoNovo.getNomeCliente());
+         pedido.setClientes(pedidoNovo.getClientes());
          pedido.setItensPedido(pedidoNovo.getItensPedido());
 
          return pedidoRepository.save(pedido);
@@ -144,7 +162,7 @@ public class PedidoService {
       }
    }
 
-   public void excluirPedido(String pedidoId){
+   public void excluirPedido(String pedidoId) {
       Pedido pedido = pedidoRepository
               .findById(pedidoId)
               .orElse(null);
@@ -154,4 +172,5 @@ public class PedidoService {
       } else {
          throw new NoSuchElementException("Pedido não encontrado");
       }
+   }
 }

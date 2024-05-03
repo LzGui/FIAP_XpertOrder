@@ -25,8 +25,8 @@ public class ClienteService {
       return clienteRepository.findAll();
    }
 
-   public ResponseEntity<?> listarCliente(UUID id){
-      Cliente cliente = clienteRepository.findById(id).orElse(null);
+   public ResponseEntity<?> listarCliente(UUID clienteId){
+      Cliente cliente = clienteRepository.findById(clienteId).orElse(null);
 
       if (cliente != null) {
          return ResponseEntity.ok(cliente);
@@ -37,8 +37,8 @@ public class ClienteService {
       }
    }
 
-   public Cliente atualizarCliente(UUID id, Cliente clienteAtualizado) {
-      Cliente cliente = clienteRepository.findById(id).orElse(null);
+   public Cliente atualizarCliente(UUID clienteId, Cliente clienteAtualizado) {
+      Cliente cliente = clienteRepository.findById(clienteId).orElse(null);
 
       if (cliente != null) {
          cliente.setNomeCliente(clienteAtualizado.getNomeCliente());
@@ -53,8 +53,8 @@ public class ClienteService {
       }
    }
 
-   public void deletarCliente(UUID id) {
-      Cliente cliente = clienteRepository.findById(id).orElse(null);
+   public void deletarCliente(UUID clienteId) {
+      Cliente cliente = clienteRepository.findById(clienteId).orElse(null);
 
       if (cliente != null) {
          clienteRepository.delete(cliente);

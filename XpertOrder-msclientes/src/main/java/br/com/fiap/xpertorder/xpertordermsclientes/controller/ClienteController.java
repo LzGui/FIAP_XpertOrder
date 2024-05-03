@@ -26,19 +26,19 @@ public class ClienteController {
       return clienteService.listarClientes();
    }
 
-   @GetMapping("/{id}")
+   @GetMapping("/{clienteId}")
    public ResponseEntity<?> obterCliente(@PathVariable UUID id){
       return clienteService.listarCliente(id);
    }
 
-   @PutMapping("/{id}")
+   @PutMapping("/{clienteId}")
    public Cliente atualizarCliente(@PathVariable UUID id,
                                    @RequestBody Cliente cliente) {
 
       return clienteService.atualizarCliente(id, cliente);
    }
 
-   @DeleteMapping("/{id}")
+   @DeleteMapping("/{clienteId}")
    public void deletarCliente(@PathVariable UUID id) {
       clienteService.deletarCliente(id);
    }

@@ -12,7 +12,7 @@ public class Pedido {
 
    @Id
    private String id;
-   private String nomeCliente;
+   private List<PedidoCliente> clientes;
    private List<ItemPedido> itensPedido;
    private double valorTotal;
 }
