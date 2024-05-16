@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="56029eda-e9d0-4fab-8cea-4c10a8b6ad3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/xpertorder/xpertordermsclientes/service/ClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XpertOrder-mspedidos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XpertOrder-mspedidos/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/model/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../XpertOrder-mspedidos/src/main/java/br/com/fiap/xpertorder/xpertordermspedidos/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../XpertOrder-msprodutos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../XpertOrder-msprodutos/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +117,11 @@
       <workItem from="1714417483155" duration="2541000" />
       <workItem from="1714432200122" duration="1174000" />
       <workItem from="1714693342607" duration="2490000" />
+      <workItem from="1714994552929" duration="629000" />
+      <workItem from="1715044042568" duration="1005000" />
+      <workItem from="1715045154049" duration="602000" />
+      <workItem from="1715194295806" duration="944000" />
+      <workItem from="1715360791276" duration="633000" />
     </task>
     <servers />
   </component>

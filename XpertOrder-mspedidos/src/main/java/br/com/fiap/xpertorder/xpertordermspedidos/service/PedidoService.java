@@ -2,7 +2,7 @@ package br.com.fiap.xpertorder.xpertordermspedidos.service;
 
 import br.com.fiap.xpertorder.xpertordermspedidos.model.ItemPedido;
 import br.com.fiap.xpertorder.xpertordermspedidos.model.Pedido;
-import br.com.fiap.xpertorder.xpertordermspedidos.model.PedidoCliente;
+//import br.com.fiap.xpertorder.xpertordermspedidos.model.PedidoCliente;
 import br.com.fiap.xpertorder.xpertordermspedidos.repository.PedidoRepository;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -16,7 +16,6 @@ import org.springframework.web.client.RestTemplate;
 import java.io.IOException;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.UUID;
 
 @Service
 public class PedidoService {
@@ -45,7 +44,7 @@ public class PedidoService {
       return pedidoRepository.save(pedido);
    }
 
-   private void vincularClienteAoPedido(List<PedidoCliente> pedidoClientes) {
+   /*private void vincularClienteAoPedido(List<PedidoCliente> pedidoClientes) {
       for (PedidoCliente pedidoCliente : pedidoClientes) {
          UUID idCliente = pedidoCliente.getIdCliente();
          String nomeCliente = pedidoCliente.getNomeCliente();
@@ -58,9 +57,8 @@ public class PedidoService {
                  nomeCliente,
                  cpf
          );
-
       }
-   }
+   }*/
 
    private boolean verificarDisponibilidadeProdutos(List<ItemPedido> itensPedido) {
       for (ItemPedido itemPedido : itensPedido) {
@@ -153,7 +151,6 @@ public class PedidoService {
       Pedido pedido = pedidoRepository.findById(pedidoId).orElse(null);
 
       if (pedido != null) {
-         pedido.setClientes(pedidoNovo.getClientes());
          pedido.setItensPedido(pedidoNovo.getItensPedido());
 
          return pedidoRepository.save(pedido);
