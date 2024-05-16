@@ -40,9 +40,9 @@ public class EntregaPedidoService {
       return entregaPedidoRepository.save(entrega);
    }
 
-   public EntregaPedido assignEntregador(Long pedidoId, Long entregadorId) {
+   public EntregaPedido assignEntregador(Long entregaId, Long entregadorId) {
       EntregaPedido entrega = entregaPedidoRepository
-              .findById(pedidoId)
+              .findById(entregaId)
               .orElseThrow(() -> new RuntimeException("Entrega não encontrado"));
 
       EntregadorPedido entregador = entregadorPedidoRepository
@@ -55,17 +55,22 @@ public class EntregaPedidoService {
       return entregaPedidoRepository.save(entrega);
    }
 
-   public DirectionsResult calcularRota(Long pedidoId) throws InterruptedException, ApiException, IOException {
-      EntregaPedido entrega = entregaPedidoRepository.findById(pedidoId).orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
+   public DirectionsResult calcularRota(Long entregaId) throws InterruptedException, ApiException, IOException {
+      EntregaPedido entrega = entregaPedidoRepository.findById(entregaId).orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
       String origem = entrega.getEntregador().getCoordenadasAtuais();
       String destino = entrega.getCoordenadasEntrega();
       return rotaService.calcularRota(origem, destino);
    }
 
-   public long estimarTempoEntrega(Long pedidoId) throws InterruptedException, ApiException, IOException {
-      EntregaPedido pedido = entregaPedidoRepository.findById(pedidoId).orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
-      String origem = pedido.getEntregador().getCoordenadasAtuais();
-      String destino = pedido.getCoordenadasEntrega();
+   public long estimarTempoEntrega(Long entregaId) throws InterruptedException, ApiException, IOException {
+      EntregaPedido entrega = entregaPedidoRepository.findById(entregaId).orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
+      String origem = entrega.getEntregador().getCoordenadasAtuais();
+      String destino = entrega.getCoordenadasEntrega();
       return rotaService.estimarTempoEntrega(origem, destino);
+   }
+
+   public String rastrearEntrega(Long entregaId) {
+      EntregaPedido entrega = entregaPedidoRepository.findById(entregaId).orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
+      return entrega.getEntregador().getCoordenadasAtuais();
    }
 }
