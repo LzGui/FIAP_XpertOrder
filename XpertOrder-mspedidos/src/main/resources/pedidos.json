@@ -1,0 +1,902 @@
+[
+  {
+    "id": "1",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440000",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 1",
+        "quantidade": 2,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 2",
+        "quantidade": 1,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 49.97,
+    "createDateTime": "2023-05-20T10:15:30"
+  },
+  {
+    "id": "2",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440001",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 3",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 4",
+        "quantidade": 3,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 59.96,
+    "createDateTime": "2023-05-21T11:20:35"
+  },
+  {
+    "id": "3",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440002",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 5",
+        "quantidade": 5,
+        "preco": 4.99
+      },
+      {
+        "nomeProduto": "Produto 6",
+        "quantidade": 2,
+        "preco": 14.99
+      }
+    ],
+    "valorTotal": 54.93,
+    "createDateTime": "2023-05-22T14:45:00"
+  },
+  {
+    "id": "4",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440003",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 7",
+        "quantidade": 1,
+        "preco": 99.99
+      },
+      {
+        "nomeProduto": "Produto 8",
+        "quantidade": 2,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 149.97,
+    "createDateTime": "2023-05-23T09:10:45"
+  },
+  {
+    "id": "5",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440004",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 9",
+        "quantidade": 3,
+        "preco": 7.99
+      },
+      {
+        "nomeProduto": "Produto 10",
+        "quantidade": 1,
+        "preco": 39.99
+      }
+    ],
+    "valorTotal": 63.96,
+    "createDateTime": "2023-05-24T12:30:20"
+  },
+  {
+    "id": "6",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440005",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 11",
+        "quantidade": 4,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 12",
+        "quantidade": 2,
+        "preco": 29.99
+      }
+    ],
+    "valorTotal": 149.94,
+    "createDateTime": "2023-05-25T16:05:55"
+  },
+  {
+    "id": "7",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440006",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 13",
+        "quantidade": 2,
+        "preco": 9.99
+      },
+      {
+        "nomeProduto": "Produto 14",
+        "quantidade": 5,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 129.91,
+    "createDateTime": "2023-05-26T18:25:40"
+  },
+  {
+    "id": "8",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440007",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 15",
+        "quantidade": 3,
+        "preco": 4.99
+      },
+      {
+        "nomeProduto": "Produto 16",
+        "quantidade": 1,
+        "preco": 99.99
+      }
+    ],
+    "valorTotal": 114.96,
+    "createDateTime": "2023-05-27T08:40:15"
+  },
+  {
+    "id": "9",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440008",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 17",
+        "quantidade": 2,
+        "preco": 49.99
+      },
+      {
+        "nomeProduto": "Produto 18",
+        "quantidade": 4,
+        "preco": 14.99
+      }
+    ],
+    "valorTotal": 159.94,
+    "createDateTime": "2023-05-28T11:50:00"
+  },
+  {
+    "id": "10",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440009",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 19",
+        "quantidade": 1,
+        "preco": 199.99
+      },
+      {
+        "nomeProduto": "Produto 20",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 299.97,
+    "createDateTime": "2023-05-29T14:15:25"
+  },
+  {
+    "id": "11",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440010",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 21",
+        "quantidade": 2,
+        "preco": 39.99
+      },
+      {
+        "nomeProduto": "Produto 22",
+        "quantidade": 1,
+        "preco": 79.99
+      }
+    ],
+    "valorTotal": 159.97,
+    "createDateTime": "2023-05-30T15:45:35"
+  },
+  {
+    "id": "12",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440011",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 23",
+        "quantidade": 5,
+        "preco": 9.99
+      },
+      {
+        "nomeProduto": "Produto 24",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 129.91,
+    "createDateTime": "2023-05-31T18:00:45"
+  },
+  {
+    "id": "13",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440012",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 25",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 26",
+        "quantidade": 2,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 79.97,
+    "createDateTime": "2023-06-01T09:25:50"
+  },
+  {
+    "id": "14",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440013",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 27",
+        "quantidade": 3,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 28",
+        "quantidade": 4,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 109.93,
+    "createDateTime": "2023-06-02T11:40:55"
+  },
+  {
+    "id": "15",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440014",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 29",
+        "quantidade": 5,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 30",
+        "quantidade": 2,
+        "preco": 29.99
+      }
+    ],
+    "valorTotal": 134.91,
+    "createDateTime": "2023-06-03T14:55:00"
+  },
+  {
+    "id": "16",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440015",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 31",
+        "quantidade": 1,
+        "preco": 9.99
+      },
+      {
+        "nomeProduto": "Produto 32",
+        "quantidade": 3,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 84.96,
+    "createDateTime": "2023-06-04T16:10:05"
+  },
+  {
+    "id": "17",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440016",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 33",
+        "quantidade": 4,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 34",
+        "quantidade": 1,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 129.95,
+    "createDateTime": "2023-06-05T17:30:15"
+  },
+  {
+    "id": "18",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440017",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 35",
+        "quantidade": 2,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 36",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 89.95,
+    "createDateTime": "2023-06-06T19:45:25"
+  },
+  {
+    "id": "19",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440018",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 37",
+        "quantidade": 1,
+        "preco": 59.99
+      },
+      {
+        "nomeProduto": "Produto 38",
+        "quantidade": 2,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 99.97,
+    "createDateTime": "2023-06-07T08:55:35"
+  },
+  {
+    "id": "20",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440019",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 39",
+        "quantidade": 3,
+        "preco": 24.99
+      },
+      {
+        "nomeProduto": "Produto 40",
+        "quantidade": 1,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 124.96,
+    "createDateTime": "2023-06-08T10:20:45"
+  },
+  {
+    "id": "21",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440020",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 41",
+        "quantidade": 4,
+        "preco": 9.99
+      },
+      {
+        "nomeProduto": "Produto 42",
+        "quantidade": 2,
+        "preco": 29.99
+      }
+    ],
+    "valorTotal": 89.93,
+    "createDateTime": "2023-06-09T12:35:55"
+  },
+  {
+    "id": "22",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440021",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 43",
+        "quantidade": 1,
+        "preco": 99.99
+      },
+      {
+        "nomeProduto": "Produto 44",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 159.96,
+    "createDateTime": "2023-06-10T15:50:05"
+  },
+  {
+    "id": "23",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440022",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 45",
+        "quantidade": 5,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 46",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 199.91,
+    "createDateTime": "2023-06-11T17:05:15"
+  },
+  {
+    "id": "24",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440023",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 47",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 48",
+        "quantidade": 3,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 104.96,
+    "createDateTime": "2023-06-12T08:10:25"
+  },
+  {
+    "id": "25",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440024",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 49",
+        "quantidade": 2,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 50",
+        "quantidade": 4,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 89.95,
+    "createDateTime": "2023-06-13T10:25:35"
+  },
+  {
+    "id": "26",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440025",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 51",
+        "quantidade": 3,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 52",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 144.95,
+    "createDateTime": "2023-06-14T12:40:45"
+  },
+  {
+    "id": "27",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440026",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 53",
+        "quantidade": 1,
+        "preco": 99.99
+      },
+      {
+        "nomeProduto": "Produto 54",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 159.96,
+    "createDateTime": "2023-06-15T15:55:55"
+  },
+  {
+    "id": "28",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440027",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 55",
+        "quantidade": 5,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 56",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 199.91,
+    "createDateTime": "2023-06-16T17:10:05"
+  },
+  {
+    "id": "29",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440028",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 57",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 58",
+        "quantidade": 3,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 104.96,
+    "createDateTime": "2023-06-17T08:20:15"
+  },
+  {
+    "id": "30",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440029",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 59",
+        "quantidade": 2,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 60",
+        "quantidade": 4,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 89.95,
+    "createDateTime": "2023-06-18T10:35:25"
+  },
+  {
+    "id": "31",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440030",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 61",
+        "quantidade": 3,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 62",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 144.95,
+    "createDateTime": "2023-06-19T12:50:35"
+  },
+  {
+    "id": "32",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440031",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 63",
+        "quantidade": 1,
+        "preco": 99.99
+      },
+      {
+        "nomeProduto": "Produto 64",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 159.96,
+    "createDateTime": "2023-06-20T15:05:45"
+  },
+  {
+    "id": "33",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440032",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 65",
+        "quantidade": 5,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 66",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 199.91,
+    "createDateTime": "2023-06-21T17:20:55"
+  },
+  {
+    "id": "34",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440033",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 67",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 68",
+        "quantidade": 3,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 104.96,
+    "createDateTime": "2023-06-22T08:30:05"
+  },
+  {
+    "id": "35",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440034",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 69",
+        "quantidade": 2,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 70",
+        "quantidade": 4,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 89.95,
+    "createDateTime": "2023-06-23T10:45:15"
+  },
+  {
+    "id": "36",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440035",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 71",
+        "quantidade": 3,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 72",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 144.95,
+    "createDateTime": "2023-06-24T12:00:25"
+  },
+  {
+    "id": "37",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440036",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 73",
+        "quantidade": 1,
+        "preco": 99.99
+      },
+      {
+        "nomeProduto": "Produto 74",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 159.96,
+    "createDateTime": "2023-06-25T14:15:35"
+  },
+  {
+    "id": "38",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440037",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 75",
+        "quantidade": 5,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 76",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 199.91,
+    "createDateTime": "2023-06-26T16:30:45"
+  },
+  {
+    "id": "39",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440038",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 77",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 78",
+        "quantidade": 3,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 104.96,
+    "createDateTime": "2023-06-27T08:45:55"
+  },
+  {
+    "id": "40",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440039",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 79",
+        "quantidade": 2,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 80",
+        "quantidade": 4,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 89.95,
+    "createDateTime": "2023-06-28T10:00:15"
+  },
+  {
+    "id": "41",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440040",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 81",
+        "quantidade": 3,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 82",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 144.95,
+    "createDateTime": "2023-06-29T12:15:25"
+  },
+  {
+    "id": "42",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440041",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 83",
+        "quantidade": 1,
+        "preco": 99.99
+      },
+      {
+        "nomeProduto": "Produto 84",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 159.96,
+    "createDateTime": "2023-06-30T14:30:35"
+  },
+  {
+    "id": "43",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440042",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 85",
+        "quantidade": 5,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 86",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 199.91,
+    "createDateTime": "2023-07-01T16:45:45"
+  },
+  {
+    "id": "44",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440043",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 87",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 88",
+        "quantidade": 3,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 104.96,
+    "createDateTime": "2023-07-02T08:00:25"
+  },
+  {
+    "id": "45",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440044",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 89",
+        "quantidade": 2,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 90",
+        "quantidade": 4,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 89.95,
+    "createDateTime": "2023-07-03T10:15:35"
+  },
+  {
+    "id": "46",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440045",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 91",
+        "quantidade": 3,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 92",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 144.95,
+    "createDateTime": "2023-07-04T12:30:25"
+  },
+  {
+    "id": "47",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440046",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 93",
+        "quantidade": 1,
+        "preco": 99.99
+      },
+      {
+        "nomeProduto": "Produto 94",
+        "quantidade": 3,
+        "preco": 19.99
+      }
+    ],
+    "valorTotal": 159.96,
+    "createDateTime": "2023-07-05T14:45:35"
+  },
+  {
+    "id": "48",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440047",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 95",
+        "quantidade": 5,
+        "preco": 14.99
+      },
+      {
+        "nomeProduto": "Produto 96",
+        "quantidade": 2,
+        "preco": 49.99
+      }
+    ],
+    "valorTotal": 199.91,
+    "createDateTime": "2023-07-06T17:00:45"
+  },
+  {
+    "id": "49",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440048",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 97",
+        "quantidade": 1,
+        "preco": 29.99
+      },
+      {
+        "nomeProduto": "Produto 98",
+        "quantidade": 3,
+        "preco": 24.99
+      }
+    ],
+    "valorTotal": 104.96,
+    "createDateTime": "2023-07-07T08:15:35"
+  },
+  {
+    "id": "50",
+    "idCliente": "550e8400-e29b-41d4-a716-446655440049",
+    "itensPedido": [
+      {
+        "nomeProduto": "Produto 99",
+        "quantidade": 2,
+        "preco": 19.99
+      },
+      {
+        "nomeProduto": "Produto 100",
+        "quantidade": 4,
+        "preco": 9.99
+      }
+    ],
+    "valorTotal": 89.95,
+    "createDateTime": "2023-07-08T10:30:25"
+  }
+]
