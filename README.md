@@ -34,7 +34,6 @@ mvn clean install
 # Execute o comando
 mvn spring-boot:run
 
-# Acesse pelo navegador http://localhost:8080/swagger-ui/index.html
 ```
 
 ### Tecnologias
@@ -42,12 +41,10 @@ mvn spring-boot:run
 - [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html)
 - [Spring Data MongoDB](https://spring.io/projects/spring-data-mongodb/)
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
-- [Spring Cloud AWS](https://spring.io/projects/spring-cloud-aws)
 - [Spring Integration](https://spring.io/projects/spring-integration)
 - [Spring Batch](https://spring.io/projects/spring-batch)
 - [Lombok](https://projectlombok.org/)
 - [Spring Web](https://docs.spring.io/spring-framework/reference/web.html)
-- [Swagger](https://swagger.io/tools/swagger-ui/)
 
 ### Autor
 
